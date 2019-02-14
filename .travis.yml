@@ -18,4 +18,4 @@ cache:
       - $HOME/.m2
 
 script:
-   - mvn -f com.examples.school/pom.xml clean verify
+   - mvn -f com.examples.school/pom.xml -Pjacoco clean verify
