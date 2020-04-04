@@ -6,6 +6,9 @@ dist: xenial
 
 jdk: openjdk8
 
+git:
+  depth: false
+
 services:
    - docker
    - xvfb
@@ -23,5 +26,4 @@ cache:
       - $HOME/.sonar/cache
 
 script:
-   - git fetch --unshallow
    - mvn -f com.examples.school/pom.xml -Pjacoco clean verify sonar:sonar
