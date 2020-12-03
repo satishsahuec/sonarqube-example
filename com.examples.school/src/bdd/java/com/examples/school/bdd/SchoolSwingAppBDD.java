@@ -8,7 +8,7 @@ import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
 
 /**
- * Communicates with a MongoDB server on localhost; start MongoDB with Docker with
+ * Communicates with a MongoDB server on localhost; start MongoDB with Docker with test
  * 
  * <pre>
  * docker run -p 27017:27017 --rm mongo:4.0.5
