@@ -15,7 +15,7 @@ services:
 
 addons:
   sonarcloud:
-    organization: "lorenzobettini-github"
+    organization: "satishsahuec-github"
 
 # skip installation step
 install: true
